@@ -1,0 +1,154 @@
+
+.timeline{
+	padding: 30px 10px;
+	position: relative;
+}
+.timeline:before
+{
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content:" ";
+	width: 5px;
+	background-color: #358CCE;
+	left: 50%;
+	margin-left: -2.5px;  
+}
+.timeline >li{
+	margin-bottom: 20px;
+	position: relative;
+
+}
+.timeline >li:after
+{
+	clear: both;
+}
+.timeline >li:before, .timeline >li:after
+{
+	content: " ";
+	display: table;
+}
+.timeline li .timeline-badge
+{
+	color:white;
+	width: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 16px;
+	left: 50%;
+	margin-left:-25px;
+	background-color: #358CCE;
+	border-radius: 50%;
+
+}
+.timeline-panel-container
+{
+	width: 50%;
+	float: left;
+}
+.timeline-panel-container-inverted
+{
+	width: 50%;
+	float: right;
+}
+.timeline-panel
+{
+	width: 90%;
+	float: right;
+	margin-right: 40px;
+	border: 2px solid #358CCE;
+	border-radius: 7px;
+	padding: 20px 25px;	
+	box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+	background: #fff;
+}
+.timeline-panel-container-inverted .timeline-panel
+{
+	float: left;
+	margin-left: 40px;
+}
+.timeline-panel:after
+{
+	position: absolute;
+	top: 27px;
+	right: -14px;
+	display: inline-block;
+	border-top: 14px solid transparent;
+	border-left: 14px solid #fff;
+	border-right: 0 solid #fff;
+	border-bottom: 14px solid transparent;
+	content: "";
+}
+#backend{
+
+    padding: 10px;
+}
+footer
+{
+	
+	padding: 20px 0 40px; 
+}
+footer h4
+{
+	color: white;
+	font-weight: normal;
+}
+.far{
+	font-size: 45px;
+	margin: 20px;
+	color: 	#696969;
+	height: 30px;
+}
+.far:hover{
+	font-size: 50px;
+	color: white;
+	
+}
+.flip-container {
+	perspective: 1000px;
+	display: block;
+    margin: auto; 
+}
+	
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 350px;
+	height: 350px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.front {
+	z-index: 2;	
+	transform: rotateY(0deg);
+}
+.back {
+	transform: rotateY(180deg);
+
+}
+#direction{
+	height: 45px;
+	width: 45px;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	color: rgb(128,128,128);	
+	font-weight: bold;
+	padding-top: 15px;
+}

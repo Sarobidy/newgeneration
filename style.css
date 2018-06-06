@@ -1,0 +1,63 @@
+@font-face{
+src:url(e.ttf);	
+font-family:nos;
+}
+@font-face{
+	src:url(love.ttf);
+	font-family: love;
+}
+#logo{
+	font-family: love;
+	font-size: 50px;
+	color: white;
+}
+div ul li a{
+	color:#696969;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+div ul li a:hover{
+	color: white;
+}
+#a{
+	font-family:nos;
+	color: 	#FFFFE0;
+	font-size:100px;
+	height: 700px;
+	padding-top: 25%;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+h2,h4,.timeline-body{
+	text-align: center;
+}
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+.formation{
+	padding-left: 50px;
+
+}
+.scroll{	
+	background:	#1E90FF;
+}
+.color{
+	color: white;
+}
+.none{
+	display: none;
+}
+
+
+

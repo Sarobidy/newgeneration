@@ -1,0 +1,32 @@
+
+
+#img{    
+	box-shadow: 0px 0px  50px rgba(0,0,0,0.1);
+	transition: box-shadow 0.5s; 
+}
+#img:hover{
+box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+}
+.type{
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	width: 45px;
+	height: 45px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #DDA0DD;
+	background-color: #D8BFD8;
+	border-radius: 50%;
+	text-transform: uppercase;
+
+}
+#img{
+	
+}
+.img-thumbnail{
+	display: block;
+	opacity: 1;
+
+}
