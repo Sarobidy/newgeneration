@@ -55,8 +55,9 @@ font-size: 24px;
 .color{
 	color: white;
 }
-.none{
-	display: none;
+
+.fixed{
+	position: fixed;
 }
 
 

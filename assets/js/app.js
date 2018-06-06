@@ -7,3 +7,9 @@ $("#navbar").removeClass('scroll');
 
   }
 });
+$(window).scrollTop(function(){
+var $position = $(window).scrollTop(); 
+if($position >500){
+	$("portfolio").scrollTop('fixed');
+}
+})
